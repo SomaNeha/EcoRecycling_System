@@ -1,6 +1,5 @@
 # EcoRecycling_System
 
-# EcoRecycling_System
 A recycling system using object oriented analysis and design techniques
 
 Some important points to run this demo:
