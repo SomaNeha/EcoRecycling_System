@@ -6,16 +6,17 @@ Some important points to run this demo:
 Login details:
 
 Username : ecore
-
 Password: santaclara
 
 Project Description:
+
 EcoRe is a company that wants to promote and market products for recycling of material. The company wants to design and manufacture, an EcoRecycle system, consisting of recycling machines and recycling stations which monitor the recycling machines. 
 You are required to help EcoRe design and implement the Recycling machines and Recycling Stations.  As a part of that requirement, you are given the job of creating a simulation of how the Recycling machines and Stations typically work where they are installed.
 Given below is the description of the functionality of the different components in this system.
+
 1.0 A Recycling machine (RCM) is similar to a vending machine and is designed to accept recyclable items that are aluminum and glass products where a user is paid a small amount of money for each type of item. The recycling machine is equipped with an interface to display the items accepted by the machine, the amount paid for each item and slot(s) to accept the items and return the money to the user. These machines are installed in offices, schools, hospitals and large buildings. Each Recycling Machine has a machine id, location, a list of items that it can accept, price paid for each item, capacity (in weight), total weight of items currently in the machine, last time the machine is emptied of items. 
 
-1.1A Recycling Monitoring Station (RMOS) is a software program that runs on a workstation that is connected to monitor typically ten different recycling machines within a radius of one mile. It is used to activate each recycling machine in the group (it monitors) to accept items and keep track of the status of each individual recycling machine. The status includes whether the machine is in operational status (operational or down), current weight of recycled items in the machine, amount of money in the machine, time last emptied.  RMOS updates the capabilities of the RCMs – this may include changing or adding new types of recyclable items and changing the price. RMOS collects statistical information about usage of the RCMs it monitors. This may include the no. of times the machine was emptied in a specific duration (in no. of hours), weight of items collected in a specific duration, no. of items collected by type (aluminum, glass and so on).
+1.1 A Recycling Monitoring Station (RMOS) is a software program that runs on a workstation that is connected to monitor typically ten different recycling machines within a radius of one mile. It is used to activate each recycling machine in the group (it monitors) to accept items and keep track of the status of each individual recycling machine. The status includes whether the machine is in operational status (operational or down), current weight of recycled items in the machine, amount of money in the machine, time last emptied.  RMOS updates the capabilities of the RCMs – this may include changing or adding new types of recyclable items and changing the price. RMOS collects statistical information about usage of the RCMs it monitors. This may include the no. of times the machine was emptied in a specific duration (in no. of hours), weight of items collected in a specific duration, no. of items collected by type (aluminum, glass and so on).
 You are required to design and implement a simulation of a group of Recycling machines and a recycling Station that monitors them, using OO analysis and design techniques and implementation in Java. 
 
 2.0	 Your simulation should demonstrate the following:
